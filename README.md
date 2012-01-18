@@ -1,4 +1,4 @@
-# Ecco - a python HTTP server
+# Ecco - a small python HTTP server
 ## About
 Ecco is a simple (and probably stupid :P) HTTP server written in Python for learning purposes.  
 This is my first ever attempt to work on anything so closely related to sockets/HTTP/peer-to-peer communication.

@@ -7,13 +7,13 @@ class Core:
     @staticmethod
     def run():
         # TODO: server manager
-        port = random.choice(range(50000,50010))
-        server = Server('192.168.1.101', port) 
+        server = Server('192.168.1.101', 0)
         http = HTTP()
-        
-        print str(port)
-        
+
+        port = server.get_port()
+        print "Bound to: " + str(port)
+
         http.run_server(server)
-            
+
 #            
-#            
+#

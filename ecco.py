@@ -2,8 +2,6 @@
 
 from ecco.core import Core
 
-Core.run();
-
-
+Core.run()
 
 

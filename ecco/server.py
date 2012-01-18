@@ -10,7 +10,8 @@ class Server(Socket):
         self._backlog = backlog
         if self._autostart:
             self.start()
-        
+
     def start(self):
         self.bind()
         self.listen()
+
